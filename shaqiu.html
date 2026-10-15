@@ -1,0 +1,471 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>沙丘之变 · 主线台本</title><style>
+:root{color-scheme:light;--paper:#faf8f3;--ink:#292822;--muted:#777267;--line:#ded9cc;--accent:#8a382e}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:30px}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:16px;line-height:1.95}a{color:var(--accent);text-underline-offset:4px}header{max-width:1120px;margin:auto;padding:64px 32px 30px;border-bottom:1px solid var(--line)}.eyebrow{letter-spacing:.18em;color:var(--accent);font-size:13px}h1{font-family:"Songti SC","SimSun",serif;font-size:clamp(32px,5vw,52px);line-height:1.3;margin:16px 0}header p{color:var(--muted);margin:0}.layout{max-width:1120px;margin:auto;display:grid;grid-template-columns:210px minmax(0,1fr);gap:48px;padding:36px 32px 80px}nav{position:sticky;top:24px;align-self:start;font-size:14px}nav strong{display:block;margin-bottom:10px}nav a{display:block;color:var(--muted);text-decoration:none;padding:5px 0}nav a:hover{color:var(--accent)}section{margin-bottom:52px}h2{font-family:"Songti SC","SimSun",serif;font-size:27px;margin:0 0 22px;padding-bottom:12px;border-bottom:1px solid var(--line)}h3{font-size:19px;margin:28px 0 12px}h4{font-size:16px;margin:22px 0 8px}p{margin:12px 0;overflow-wrap:anywhere}ul,ol{padding-left:1.6em}li{margin:8px 0}blockquote{margin:16px 0;padding:14px 20px;background:#f0ede5;border-left:3px solid #b4a58a;color:#595347;font-family:"Songti SC","SimSun",serif}.notice{padding:12px 16px;border:1px dashed #c9bfac;border-radius:6px;color:var(--muted);font-size:14px}.meta{display:flex;gap:12px;flex-wrap:wrap}.meta span{border:1px solid var(--line);padding:4px 12px;border-radius:4px;font-size:14px}.actions{display:flex;gap:10px;margin-top:22px}button{font:inherit;font-size:14px;cursor:pointer;border:1px solid var(--line);background:white;color:var(--ink);padding:7px 16px;border-radius:5px}button:hover{border-color:var(--accent)}#status{font-size:13px;color:var(--muted);min-height:26px}footer{border-top:1px solid var(--line);padding-top:20px;color:var(--muted);font-size:13px}@media(max-width:760px){header{padding:36px 22px 24px}.layout{display:block;padding:24px 22px 48px}nav{position:static;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--line)}nav a{display:inline-block;margin-right:16px}body{font-size:16px}h2{font-size:24px}section{margin-bottom:38px}}@media print{body{background:white;font-size:11pt}.layout{display:block;padding:0}header{padding:0 0 16px}nav,.actions,#status{display:none}section{margin-bottom:24px}h2,h3,h4{break-after:avoid}blockquote{break-inside:avoid}a{color:inherit}}
+.stage{display:inline-block;color:#b72d25;background:#ffead7;padding:3px 14px;border-radius:4px;font-weight:700}.npc{background:#e0f0fc;padding:8px 14px;border-radius:4px;color:#24455d}.dialogue{background:#d5d5d5;color:#303030;font-weight:700;padding:9px 14px;border-radius:4px;line-height:1.85}.battle{color:#b72d25}.directions{color:#69645b}.notice{background:#f3efe5}.doclinks{display:flex;gap:18px;flex-wrap:wrap;margin-top:18px;font-size:14px}.legend{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;font-size:13px}.legend span{padding:4px 10px;border-radius:4px}.legend .dialogue{margin:0}.linkline{font-size:14px;border-left:2px solid var(--line);padding-left:14px}nav{max-height:calc(100vh - 48px);overflow:auto}nav details{margin:6px 0 12px;font-size:12px}nav summary{cursor:pointer;color:var(--muted)}nav details a{padding-left:10px}.act-label{font-size:13px;color:var(--accent);letter-spacing:.12em;margin:0 0 8px}h2{margin-top:8px}h3{margin-top:34px}section{margin-bottom:70px}.missing{background:#f1ece2;padding:10px 14px;border:1px dashed #c9bfac;color:#777267;font-size:14px}@media(max-width:760px){nav{max-height:none}nav details a{display:block}nav details{display:block}.dialogue{padding:10px 12px}h1{font-size:32px}.legend{gap:8px}}@media print{.legend,.doclinks{display:none}.dialogue,.npc,.stage{-webkit-print-color-adjust:exact;print-color-adjust:exact}.dialogue{break-inside:avoid}}</style></head><body>
+<header><div class="eyebrow">主线台本 · 五幕合辑</div><h1>沙丘之变 · 主线台本</h1><p>第一幕至第五幕｜演出、人物台词与战斗流程</p><div class="doclinks"><a href="index.html">邯郸 · 印象案</a><a href="framework.html">邯郸 · 框架案</a><a href="shaqiu.html" aria-current="page">沙丘之变 · 主线台本</a></div><div class="legend" aria-label="格式说明"><span class="stage">演出开始 / 结束</span><span class="npc">NPC</span><span class="dialogue">台词</span><span class="battle">战斗</span></div><div class="actions"><button id="copy" type="button">复制全文</button><button id="print" type="button">打印 / 保存为 PDF</button></div><div id="status" role="status" aria-live="polite"></div></header>
+<div class="layout"><nav aria-label="目录"><strong>五幕目录</strong><a href="#act-1">第一幕 · 劳工营与地下暗河</a><details><summary>场景目录</summary>
+<a href="#act-1-scene-1">【升降机上】</a>
+<a href="#act-1-scene-2">【铁门前】</a>
+<a href="#act-1-scene-3">【工具间】</a>
+<a href="#act-1-scene-4">【前往炊所的甬道中】</a>
+<a href="#act-1-scene-5">【炊所】</a>
+<a href="#act-1-scene-6">【前往窟室的途中】</a>
+<a href="#act-1-scene-7">【窟室】</a>
+<a href="#act-1-scene-8">【夹层通道中】</a>
+<a href="#act-1-scene-9">【地下暗河附近】</a>
+</details>
+<a href="#act-2">第二幕 · 施工区、军营与城门</a><details><summary>场景目录</summary>
+<a href="#act-2-scene-1">【施工区潜行段】</a>
+<a href="#act-2-scene-2">【军营区战斗段】</a>
+<a href="#act-2-scene-3">【城门】</a>
+</details>
+<a href="#act-3">第三幕 · 升降机、城墙与敌楼</a><details><summary>场景目录</summary>
+<a href="#act-3-scene-1">【城门-升降机】</a>
+<a href="#act-3-scene-2">【电梯出口】</a>
+<a href="#act-3-scene-3">【脚手架-城墙】</a>
+<a href="#act-3-scene-4">【敌楼甬室】</a>
+</details>
+<a href="#act-4">第四幕 · 城楼、楼台与瓮城门</a><details><summary>场景目录</summary>
+<a href="#act-4-scene-1">【关城大门前】</a>
+<a href="#act-4-scene-2">【城内封锁点-城楼内部】</a>
+<a href="#act-4-scene-3">【城楼】</a>
+<a href="#act-4-scene-4">【前往楼台的路上】</a>
+<a href="#act-4-scene-5">【楼台】</a>
+<a href="#act-4-scene-6">【前往瓮城城门的路上】</a>
+<a href="#act-4-scene-7">【瓮城门前】</a>
+</details>
+<a href="#act-5">第五幕 · 瓮城对峙与终局</a><details><summary>场景目录</summary>
+<a href="#act-5-scene-1">【瓮城】</a>
+</details>
+</nav><main id="article"><p class="notice">以下按提供顺序合并五幕。飞书链接所指正文未包含在此次提供的文字中，访问可能需要权限；图片占位待补充。</p><section id="act-1"><div class="act-label">ACT 01</div><h2>第一幕</h2>
+<p class="notice">--以下内容尚未完全确定，请谨慎参考。--</p>
+<p class="directions">主角出生于地上区域，跟随劳工队伍由山侧入口进入劳工营，坐上升降机，看到劳工营全貌。</p>
+<h3 id="act-1-scene-1">【升降机上】</h3>
+<p class="dialogue">主角（内心独白）：两天了，扶苏巡视还没回来。</p>
+<p class="dialogue">主角（下意识摸了摸腰间）：遗诏得尽快交到他手里，以免夜长梦多。</p>
+<h3 id="act-1-scene-2">【铁门前】</h3>
+<p class="npc">NPC：秦军、从集中营往外走的一队劳工。</p>
+<p class="directions">主角从升降机下来，来到第一道铁门前，此时正值换班，看到一队劳工正往外走准备上工。</p>
+<p class="directions">铁门旁的秦军催促主角所在的下工队伍归还劳具。</p>
+<p class="dialogue">秦军：快些归还劳具，上工的等着用。</p>
+<p class="directions">主角到达工具间。</p>
+<h3 id="act-1-scene-3">【工具间】</h3>
+<p class="npc">NPC：秦军A、秦军B、藏铁片的劳工、清癯的劳工、监工、小兵*2</p>
+<p class="directions">（工具间入口处站着几名等候还工具的劳工，秦军甲和秦军乙在叫号，被叫到的人上前归还。）</p>
+<p class="dialogue">秦军乙：乙辛陆伍！</p>
+<p class="directions">藏铁片的劳工走上前归还。</p>
+<p class="dialogue">秦军甲：甲丙贰肆！</p>
+<p class="directions">主角听到自己的标号，上前归还劳具。</p>
+<p class="dialogue">秦军甲：摆整齐些！</p>
+<p class="directions">主角将手中劳具放到身旁的筐中。</p>
+<p class="dialogue">秦军甲：张手。</p>
+<p class="directions">主角照做。</p>
+<p class="dialogue">秦军乙（凶狠）：脱鞋！</p>
+<p class="directions">主角身旁的劳工鞋内搜出一枚铁片。</p>
+<p class="dialogue">秦军乙：竟敢私匿铁器，拿下他！</p>
+<p class="directions">两名小兵上前将劳工拖走，秦军B夺走劳工手中的木牌。</p>
+<p class="dialogue">藏铁片的劳工：饶命！这是石缝里捡的！</p>
+<p class="dialogue">藏铁片的劳工：并非私藏之物啊！饶命……</p>
+<p class="directions">主角看着挣扎的劳工，脚下忘记移动。</p>
+<p class="dialogue">秦军甲：还不走！想挨鞭子吗？</p>
+<p class="directions">主角随着人潮离开工具间，很快进入通往炊所的甬道。</p>
+<h3 id="act-1-scene-4">【前往炊所的甬道中】</h3>
+<p class="npc">NPC：交谈的劳工*3</p>
+<p class="directions">主角随一名劳工进入逼仄的甬道，甬道两侧有劳工坐在窟里吃着饼，经过身旁时能听到他们的交谈。</p>
+<p class="dialogue">劳工甲（压低声音）：哎，听说了吗，东窟那个阿毛，搬尸去了，三日没回来。</p>
+<p class="dialogue">劳工乙：暗河？那地方邪得很，活人下去，就没见上来过。</p>
+<p class="dialogue">主角（内心独白）：不见了……难道暗河连着外面？</p>
+<p class="directions">后面的人赶着去炊所吃饭，推搡了主角，主角加快脚步继续向前，进入炊所。</p>
+<h3 id="act-1-scene-5">【炊所】</h3>
+<p class="npc">NPC：放饭秦军*2、吃饭劳工*3、壮劳工、瘦劳工、监工、清癯的劳工</p>
+<p class="directions">（炊所排一纵列，放饭台摆有一个水缸、一个粥桶，粥桶旁边单独有簸箕盛放麦饼。四周三三两两坐着吃饭的劳工。）</p>
+<p class="directions">主角和清癯劳工进入炊所，经过坐地吃饭的几人。</p>
+<p class="dialogue">吃饼的劳工（咬着饼，说话含糊）：今天这饼可真大。</p>
+<p class="dialogue">喝粥的劳工：大概是公子回来了，这趟巡得可真久。</p>
+<p class="directions">主角不自觉放慢脚步。</p>
+<p class="directions">主角向前走去，排在队尾，前侧传来叫喊声。</p>
+<p><span class="stage">演出开始</span></p>
+<p class="dialogue">瘦小劳工：我的饼！</p>
+<p class="directions">主角循声望去，只见一个宽背厚肩的劳工手里握着两个饼，身旁一瘦小劳工正扒着其衣角。</p>
+<p class="dialogue">瘦小劳工：你……你还给我！</p>
+<p class="directions">瘦小劳工抬手垫脚去抢饼，壮汉将其一把推开。</p>
+<p class="directions">瘦小劳工踉跄后退，撞上墙上的灯架，油灯晃动、坠落，火焰顺着地上的草席蔓延。</p>
+<p class="directions">监工的脚步声由远及近，只见他粗暴扒下旁边一名劳工的衣服，几下扇熄了火焰。</p>
+<p class="directions">监工瞥了一眼地面，确认没有余烬，直接抄起鞭子抽打抢饼的二人。</p>
+<p class="dialogue">监工：蠹虫！欲死乎？！欲死莫累我！</p>
+<p class="dialogue">监工（鞭子落下，力道比平时重）：再犯，可就不止一鞭子了。</p>
+<p class="directions">壮汉肩膀一缩，没有出声，瘦小劳工膝盖一软，单手撑地。</p>
+<p class="directions">监工转身离去，壮汉端着碗大摇大摆地离去，其他人退避三舍。瘦小劳工则呆呆坐在原地。</p>
+<p><span class="stage">演出结束</span></p>
+<p class="dialogue">放饭秦军：下一个，甲丙贰肆！</p>
+<p class="directions">主角视线拉回，下一个就是自己了，可以看到稀薄如水的粥。</p>
+<p class="directions">主角出示木牌，领取晚饭，经过瘦劳工身边。瘦劳工的碗在打斗中跌落在地，他正望着地上打翻的粥出神。</p>
+<p class="directions">主角递上自己的食物，瘦劳工愣了两秒，随即伸手抢过，旁若无人大口吞咽起来。</p>
+<p class="directions">主角若有所思地离去。</p>
+<h3 id="act-1-scene-6">【前往窟室的途中】</h3>
+<p class="npc">NPC：三个肚子疼的劳工、秦军</p>
+<p class="directions">主角离开炊所，循路而上，甬道侧部的窟室中传来呕吐声，循声望去，只见前方路旁蹲着三个劳工，其中一人在呕吐，主角走近听到他们的对话。</p>
+<p class="dialogue">劳工甲（断断续续地）：胃里……闹得很……这才出来没几步……</p>
+<p class="dialogue">劳工乙：我也难受，怕是饭不对劲。不行，呃——</p>
+<p class="directions">主角靠近二人身边，放慢脚步细听。</p>
+<p class="dialogue">劳工甲：怎么吐成这样？忍着点儿，要是上头知道了，准把咱们送去疠所。</p>
+<p class="dialogue">劳工乙（惊恐地）：那地方！进去的人，哪有活着出来的。</p>
+<p class="directions">主角正欲上前攀谈，巡逻的秦军走过来，目光扫向这边。</p>
+<p class="dialogue">秦军：聚在此处作甚！回窟室去，莫要生事！</p>
+<p class="directions">三人慌忙散去，主角也低头快步离开。</p>
+<hr style="border:0;border-top:1px solid var(--line);margin:26px 0">
+<p class="directions">到达开阔处后看到地下暗河，主角观察暗河片刻。</p>
+<p class="dialogue">主角（内心独白）：原来疠所和暗河在一条路上，也许能从那里出去。</p>
+<p class="directions">主角正欲进一步上前探索，巡逻的秦军走过来，目光扫向这边。</p>
+<p class="dialogue">秦军：哪个窟的？还不回去待着！</p>
+<p class="directions">主角只得停住脚步，继续朝窟室方向前进。</p>
+<p class="dialogue">主角（内心独白）：先回去准备一下，见机行事。</p>
+<p class="directions">主角继续前进，回到自己的窟室。</p>
+<h3 id="act-1-scene-7">【窟室】</h3>
+<p class="npc">NPC：鬼鬼祟祟的劳工、监工</p>
+<p><span class="stage">演出开始</span></p>
+<p class="directions">主角返回自己的窟室，看到一鬼鬼祟祟的劳工背对门口，在翻自己的床铺。</p>
+<p class="dialogue">主角（上前抓住肩膀后拉）：你在翻什么？</p>
+<p class="dialogue">鬼鬼祟祟的劳工：没，没什么，我什么都没瞧见。</p>
+<p class="directions">对方心虚地朝门口逃去，主角喝住他。</p>
+<p class="dialogue">主角：站住！</p>
+<p class="directions">此人哆哆嗦嗦转身。</p>
+<p class="dialogue">鬼鬼祟祟的劳工（惊恐）：饶命！我不想死……是他们逼我的，逼我的啊！</p>
+<p class="directions">主角眉头一皱，手不自觉攥得更紧了。</p>
+<p class="dialogue">主角：“他们”是谁？逼你做什么？</p>
+<p class="dialogue">鬼鬼祟祟的劳工（紧张）：我不识得！我本在城下筑墙，平白被抓了去……</p>
+<p class="dialogue">鬼鬼祟祟的劳工：他们抓了好些人，命我们找一卷书……还是信什么的……说是在新来的劳工身上。</p>
+<p class="dialogue">主角（内心独白）：难道遗诏已经被人盯上了？</p>
+<p class="directions">主角眼神一转，手上放松了些，对方敏锐捕捉到这力度的变化。</p>
+<p class="dialogue">鬼鬼祟祟的劳工：饶命，我当真不知啊， 给公磕头了！</p>
+<p class="directions">主角松开手，没有说话，转身坐下。</p>
+<p class="directions">鬼鬼祟祟的劳工一边磕头一边喃喃念着“饶了我吧”。</p>
+<p class="dialogue">主角：滚！</p>
+<p class="dialogue">鬼鬼祟祟的劳工：公大恩！我必定闭紧嘴巴，一个字也不漏出去。</p>
+<p class="directions">劳工跌跌撞撞地离开窟室。</p>
+<p class="directions">主角检查了装备还在，将床重新铺好，将腰间的囊袋捆得更紧些。</p>
+<p class="directions">此时窟室外面隐约传来骚动声，一名监工快速从门口跑过，向此地的另一监工求援。</p>
+<p class="dialogue">监工（边跑边喊）：食水有毒，倒了一片！疠所都塞满了，快过去搭把手。</p>
+<p class="directions">主角望着窟外火把移动的光，意识到外面监工很多，不便行动。</p>
+<p class="dialogue">主角（内心独白）：看来此地不宜久留。还好我早打通了暗道，趁着乱子，现在就走！</p>
+<p class="directions">主角穿上装备，走进窟室内间，头顶有一个残破的通风口，主角抛出钩锁，进入窟室的夹层通道。</p>
+<p><span class="stage">演出结束</span></p>
+<h3 id="act-1-scene-8">【夹层通道中】</h3>
+<p class="directions">此处全程为隔墙观看，主角经通道先会经过几个劳工窟室，后会经过疠所。</p>
+<p class="npc">NPC：劳工</p>
+<p class="directions">主角在夹层通道中匍匐前行，侧面是劳工窟室的墙壁，隐约透出昏黄的灯光。嗡嗡的说话声从缝隙中透过来，是两个趴着呻吟的劳工。（以下对话边走边播）</p>
+<p class="dialogue">劳工甲：哎呦，都怪阿得捡那铁片，害我们也被抽了鞭子。</p>
+<p class="dialogue">劳工乙：身上疼，总比吃坏肚子好。</p>
+<p class="dialogue">劳工乙：今夜送去疠所的，少说二十个，怕是都活不成了。</p>
+<hr style="border:0;border-top:1px solid var(--line);margin:26px 0">
+<p class="directions">主角继续匍匐前行，前方突然传来一声惊呼。</p>
+<p class="dialogue">劳工丁（惊叫）：娘！</p>
+<p class="directions">主角被突如其来的叫声吓到，猛地停下，屏息贴墙，一动不敢动。</p>
+<p class="dialogue">劳工丁（迷迷糊糊地）：娘……我回来了……</p>
+<p class="directions">主角放松下来。</p>
+<p class="dialogue">劳工戊：唉，烧糊涂了。嘴里还念着家呢，可这日子哪里是个头。</p>
+<p class="dialogue">劳工己：要是公子发话，说不定哪天能放咱们走……</p>
+<p class="dialogue">劳工庚（暴躁打断）：放咱们？他自己都离不了这儿！</p>
+<p class="dialogue">劳工庚：我听说他是得罪了陛下，被贬过来的。</p>
+<p class="directions">四人不再讲话，只听到沉重的叹息，之前进进出出的秦军过来，示意几人进入疠所。</p>
+<p class="dialogue">主角（内心独白）：看来沙丘的事还没传到这儿……得快点见到扶苏。</p>
+<p class="directions">主角坚定了内心的想法，加快前进，到达疠所。</p>
+<hr style="border:0;border-top:1px solid var(--line);margin:26px 0">
+<p class="npc">NPC：若干虚弱劳工、一名医官、几名守卫、此前藏铁片的劳工。</p>
+<p class="directions">（疠所由几间侧室打通而成，入口处有一名医官。医官会判定送来的劳工能否继续干活，不能干活的会被集中带到一旁“休息”，实际上被停止供给配额，很快死亡。）</p>
+<p class="directions">主角沿通道前进，到达疠所区域，可以窥见墙外的事件。</p>
+<p class="directions">一名五大三粗的守卫走进疠所巡查，一只手攀住他的脚踝——</p>
+<p class="dialogue">藏铁片的劳工（虚弱地）：疼……水……给我水……</p>
+<p class="directions">守卫一脚踢中地上劳工的肋骨，可以听到骨折的声音。</p>
+<p class="dialogue">守卫甲（对地上的劳工）：等死还不安分些！</p>
+<p class="directions">藏铁片的劳工被踢后不再发出声音，周围的劳工吃力探过去。</p>
+<p class="dialogue">藏铁片的劳工（吐血）：嗬嗬……</p>
+<p class="dialogue">养病的劳工甲：阿得……阿得醒醒……</p>
+<p class="directions">主角定睛一看，倒下的人是此前藏铁片的劳工，他早被打得遍体鳞伤。</p>
+<p class="dialogue">主角（内心独白）：因为一块铁片丢了性命……</p>
+<p class="dialogue">守卫乙：里面死人了？快抬出来扔河里，一会儿该发臭了。</p>
+<p class="dialogue">养病的劳工甲：进了河，顺着水，能出去……也好，也好……</p>
+<p class="directions">旁边的劳工乙叹了口气。</p>
+<p class="dialogue">养病的劳工乙（带着哭腔）：死了才能出去，还有什么用……</p>
+<p class="directions">此时，主角碰倒了一个罐子发出响声，守卫过来查看。</p>
+<p class="dialogue">守卫甲：谁在那里？</p>
+<p class="directions">主角此时通过QTE躲藏，几只老鼠窜出。</p>
+<p class="dialogue">守卫甲：原来是老鼠。</p>
+<p class="directions">守卫转身离去，主角快速离开。</p>
+<h3 id="act-1-scene-9">【地下暗河附近】</h3>
+<p class="npc">NPC：鬼鬼祟祟的劳工、秦军若干、监工若干</p>
+<p class="directions">主角从高处落于地面，发出声音，听到墙外传来秦军的声音。</p>
+<p class="dialogue">秦军：那里有声响！找到他了！你们几个，下去看看。</p>
+<p class="battle">此时前方一道单向门处出现火光和影子。主角可选择战斗或朝右前方逃离，逃离过程中后方会有秦军追赶。</p>
+<p class="battle">路的对侧降下升降机，几名秦军走下，与主角正面相遇，主角将其解决，快速跑上升降机，在升降机上与各层停靠点冲上来的秦军战斗。</p>
+<p class="directions">主角来到地下暗河入口处，此前翻自己东西的劳工带着一名秦军、几名监工从升降机下来。</p>
+<p class="dialogue">鬼鬼祟祟的劳工（向身后的秦军）：就是他！大人，就是他私藏铁器！</p>
+<p class="directions">秦军脸上面无表情，如宣读法条。</p>
+<p class="dialogue">秦军：私藏铁器，处以劓刑。</p>
+<p class="directions">几名跟随的监工拔出刀来逼近主角。</p>
+<p class="dialogue">秦军：斩其首级者，爵一级。</p>
+<p class="battle">几名监工闻言，朝主角冲杀过去，</p>
+<p class="battle"><strong>【精英战开始，主角将监工杀死。】</strong></p>
+<p><span class="stage">演出开始</span></p>
+<p class="directions">主角收起剑，正欲离去，被鬼鬼祟祟的劳工抱住小腿。</p>
+<p class="dialogue">鬼鬼祟祟的劳工：别走！</p>
+<p class="directions">主角似有触动，眉头一皱，暂时停步。</p>
+<p class="dialogue">鬼鬼祟祟的劳工：求求你！你走了，我就活不成了！</p>
+<p class="dialogue">鬼鬼祟祟的劳工（哭泣）：阿母……兄嫂……一家老小，都要吃罪啊！</p>
+<p class="directions">主角愤怒地抽出小腿，转身离去。</p>
+<p class="directions">下一刻，哭声戛然而止。身后传来叫嚷声。</p>
+<p class="dialogue">鬼鬼祟祟的劳工：来人……来人呐！这儿有人要逃，快来人呐！</p>
+<p class="directions">主角回头，望见出卖自己的劳工正在卖力叫喊，为赶来的秦军指路。</p>
+<p class="directions">四处的秦军闻声而动，一时可看见大量火把朝这边聚集。主角向前逃生，身后鬼鬼祟祟劳工的喊声渐渐因距离而减小。</p>
+<p class="dialogue">鬼鬼祟祟的劳工（渐弱）：那边！往那边追！千万要抓住他！</p>
+<p><span class="stage">演出结束</span></p>
+<p class="directions">主角快速跑向暗河，入口处笼罩着诡异的雾气，隐隐约约可以看到河道中的尸体。</p>
+<p class="directions">主角快速跃入暗河。</p>
+<p class="dialogue">主角（内心独白）：河里的、洞中的，都被这里的“法”吞吃了。</p>
+<p class="directions">主角继续朝光亮处游去。</p>
+<p class="dialogue">主角（内心独白）：这些事，扶苏能看到吗……</p>
+</section>
+<section id="act-2"><div class="act-label">ACT 02</div><h2>第二幕</h2>
+<p class="notice">--以下内容尚未完全确定，请谨慎参考。--</p>
+<h3 id="act-2-scene-1">【施工区潜行段】</h3>
+<h4>潜行阶段一（木架段）</h4>
+<p><strong>主线剧情：副将杀逃兵</strong></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/ZHMaduvDXshg9yb19MhcOOJQnPg" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/ZHMaduvDXshg9yb19MhcOOJQnPg ↗</a></p>
+<h4>潜行阶段二（缝隙段）</h4>
+<p><strong>远处观看：</strong></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/F62WdGfkKs4lOwbKuvEcvjv7nGd" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/F62WdGfkKs4lOwbKuvEcvjv7nGd ↗</a></p>
+<p><strong>近处观看：</strong></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/KhnpdPJUksfteqbFL9IcrFm5nyg" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/KhnpdPJUksfteqbFL9IcrFm5nyg ↗</a></p>
+<h4>潜行阶段三（QTE段）</h4>
+<p><strong>氛围铺垫（匍匐前进段）</strong></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/ULejd53SuswvRXbQ1cRc3yH3nqc" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/ULejd53SuswvRXbQ1cRc3yH3nqc ↗</a></p>
+<p><strong>直面战场、被动卷入战斗（竖直障碍段）</strong></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/PxZ6d8FVOsb8FlbjZt6cKeE2nve" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/PxZ6d8FVOsb8FlbjZt6cKeE2nve ↗</a></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/GqMidajEjsS8xjbWnumcXrXpn1d" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/GqMidajEjsS8xjbWnumcXrXpn1d ↗</a></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/Of7rdNpp6sD2GRbfpohcynMzndc" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/Of7rdNpp6sD2GRbfpohcynMzndc ↗</a></p>
+<h3 id="act-2-scene-2" class="battle">【军营区战斗段】</h3>
+<h4>氛围类情节</h4>
+<h4>A类：结合路径变化、动线选择，涉及剧情和世界观传达</h4>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/FQS4dUpYmsmgWnbo2RYcIF2GnId" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/FQS4dUpYmsmgWnbo2RYcIF2GnId ↗</a></p>
+<p class="missing">[图片] · 原文图片尚未提供</p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/H7x9dfxk6sDfqobsW2JcRsbynJf" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/H7x9dfxk6sDfqobsW2JcRsbynJf ↗</a></p>
+<p class="missing">[图片] · 原文图片尚未提供</p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/BktTd7ei5siJxUbZAWvcTSmWnde" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/BktTd7ei5siJxUbZAWvcTSmWnde ↗</a></p>
+<p class="missing">[图片] · 原文图片尚未提供</p>
+<h4>B类：氛围填充（放置于场景中，无须看完）</h4>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/TI54dNYlbsz6nhbo4G3cbYbPnCg" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/TI54dNYlbsz6nhbo4G3cbYbPnCg ↗</a></p>
+<h3 id="act-2-scene-3">【城门】</h3>
+<p class="npc">NPC：扶苏（将军）、守城副将、劳工若干、怪物若干</p>
+<p><span class="stage">演出开始</span></p>
+<p class="directions">城门之外，一群被遗弃的底层劳工正被怪物追杀，拼命奔向紧闭的城门求生。</p>
+<p class="directions">城门之上，士兵列阵放箭。一波箭雨发射，死伤遍地。</p>
+<p class="dialogue">劳工（拍门哀求）：开门！救命呐！</p>
+<p class="directions">城上士兵不为所动，弓弦拉满，箭矢指向城下，主角视线随劳工望向城头。</p>
+<p class="directions">守城副将面向城下劳工，指着身后的军旗，如同宣读法条。</p>
+<p class="dialogue">副将：大秦铁律：军旗既升，即为战时，不得启城门。</p>
+<p class="directions">一将军打扮的人来到城门之上，一剑斩断军旗。</p>
+<p class="dialogue">将军：开门。</p>
+<p class="directions">守城副将震惊，将军直视其双眼。</p>
+<p class="dialogue">将军：秦筑长城，本为护民，何以持兵据城，坐视秦民横死？</p>
+<p class="dialogue">将军（转向城下）：若有罪责，我一力承担。</p>
+<p class="directions">城门缓缓开启，劳工涌入，主角亦向前冲去，腰间的囊袋在挤攮中掉落，随着人群被踢到将军脚下。</p>
+<p class="directions">将军捡起囊袋，拿出其中的遗诏。</p>
+<p class="battle">此时主角身后传来劳工哀嚎，原来是怪物攻击，主角毅然转身对抗怪物，以便其他劳工逃生。</p>
+<p class="battle">杀死怪物后，主角转身向城门跑去，只见城门已闭，只通过门缝与将军对视一眼。</p>
+<p class="directions">怪物虽被城楼箭雨射杀，但其后方却涌现出数量惊人的怪物潮。就在局势彻底失控之际，城内高空飞来大批燃烧的木鸢，如同火焰兵器般坠入怪群，引发一片焚烧与爆裂。烈火吞没怪物，也波及到城楼旁尚未完工的木质脚手架，使其开始崩塌。</p>
+<p class="directions">身后是怪物与火场，面前是紧闭的城门，主角被彻底留在了城外，只得经由城墙旁的升降机到达城墙，开启逃生。</p>
+<p><span class="stage">演出结束</span></p>
+</section>
+<section id="act-3"><div class="act-label">ACT 03</div><h2>第三幕</h2>
+<h3 id="act-3-scene-1">【城门-升降机】</h3>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/FuB0dQw7msYbMRbMbblcKCLvnhe" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/FuB0dQw7msYbMRbMbblcKCLvnhe ↗</a></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/YSJBdc5q0s743sbihobcYjEKnEe" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/YSJBdc5q0s743sbihobcYjEKnEe ↗</a></p>
+<h3 id="act-3-scene-2">【电梯出口】</h3>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/NwVEd5N0JsKH4jbydSXclc7Incc" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/NwVEd5N0JsKH4jbydSXclc7Incc ↗</a></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/TVnsdRG3ls5RmrbJaGpcRJZEnXQ" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/TVnsdRG3ls5RmrbJaGpcRJZEnXQ ↗</a></p>
+<h3 id="act-3-scene-3">【脚手架-城墙】</h3>
+<p class="directions"><em>第一段跑酷结束，主角正前方是敌楼，但通路被堵，只得从右侧隐秘豁口穿过。</em></p>
+<hr style="border:0;border-top:1px solid var(--line);margin:26px 0">
+<p class="directions"><em>一段在摇摇欲坠的攀援&amp;跑酷体验后，主角顺利来到此前看到刺客剪影的甬室，开始偷听。</em></p>
+<h3 id="act-3-scene-4">【敌楼甬室】</h3>
+<p class="npc">NPC：刺客*2</p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/IeRYdy4wSs862rbUf9ycafmhnpf" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/IeRYdy4wSs862rbUf9ycafmhnpf ↗</a></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/P6PNdVrG3sonhuba9xhcJPWRnjb" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/P6PNdVrG3sonhuba9xhcJPWRnjb ↗</a></p>
+<p class="battle"><strong>精英怪战斗。</strong></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/CzP7dcegPspMOtb7lWscPz6EnXF" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/CzP7dcegPspMOtb7lWscPz6EnXF ↗</a></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/H0v4danUss8egybxlphcQ0GDnVc" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/H0v4danUss8egybxlphcQ0GDnVc ↗</a></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/CpQcdFteIsOfKabhHNLc2VzZnHc" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/CpQcdFteIsOfKabhHNLc2VzZnHc ↗</a></p>
+</section>
+<section id="act-4"><div class="act-label">ACT 04</div><h2>第四幕</h2>
+<p class="notice">--以下内容尚未完全确定，请谨慎参考。--</p>
+<h3 id="act-4-scene-1">【关城大门前】</h3>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/CnsmdgfnFssrZrb6h93cXjp3nRc" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/CnsmdgfnFssrZrb6h93cXjp3nRc ↗</a></p>
+<h3 id="act-4-scene-2">【城内封锁点-城楼内部】</h3>
+<p class="npc">NPC：秦军若干、劳工若干</p>
+<p><span class="stage">演出开始</span></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/TqIedJZsSsks0Vb9B2fcS2NUnZw" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/TqIedJZsSsks0Vb9B2fcS2NUnZw ↗</a></p>
+<p><span class="stage">演出结束</span></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/Chm7d9yhEsej2dbBJQ9crK6qn1g" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/Chm7d9yhEsej2dbBJQ9crK6qn1g ↗</a></p>
+<p class="directions">主角绕上二层，发现天花板上一个窗洞，使用钩索快速来到上层室外，寻路而上到达城楼平台。</p>
+<hr style="border:0;border-top:1px solid var(--line);margin:26px 0">
+<p class="directions">主角路过一女墙上的平台，可以隐约望见几名秦军在修缮战损的木鸢。（氛围对话）</p>
+<p class="dialogue">秦军甲：鸢翼裂了，比前几次难修啊。</p>
+<p class="directions">玩家此时可选择走近或者略过，如走近会听到后续对话。</p>
+<p class="dialogue">秦军乙：今夜得快些，那东西，来得越发勤了。</p>
+<p class="dialogue">秦军甲：每回都折好些人，能撑一日是一日……</p>
+<h3 id="act-4-scene-3">【城楼】</h3>
+<p><span class="stage">演出开始</span></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/NrN3dAgAFs7EoFbBhq4cuuGwnwd" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/NrN3dAgAFs7EoFbBhq4cuuGwnwd ↗</a></p>
+<p><span class="stage">演出结束</span></p>
+<h3 id="act-4-scene-4">【前往楼台的路上】</h3>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/BjdIdbM3pspAyUb8uLxcxEGYnqd" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/BjdIdbM3pspAyUb8uLxcxEGYnqd ↗</a></p>
+<h3 id="act-4-scene-5">【楼台】</h3>
+<p class="npc">NPC：扶苏、蒙恬、刺客若干</p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/QdxodRqxZsLAiqbmZ4QcJgWBnOd" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/QdxodRqxZsLAiqbmZ4QcJgWBnOd ↗</a></p>
+<p><span class="stage">演出开始</span></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/XvtrdCaQvsaw1EbdDs7cfB9undb" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/XvtrdCaQvsaw1EbdDs7cfB9undb ↗</a></p>
+<p><span class="stage">演出结束</span></p>
+<p class="directions">身后传来蒙恬的怒吼声和兵刃相击声，渐渐远去。</p>
+<h3 id="act-4-scene-6">【前往瓮城城门的路上】</h3>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/JeYQdaJdzsz1NUbJj7WcW31rnHb" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/JeYQdaJdzsz1NUbJj7WcW31rnHb ↗</a></p>
+<p><span class="stage">演出开始</span></p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/ZytqdE3rMsfPifbt8BXcQePSnNh" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/ZytqdE3rMsfPifbt8BXcQePSnNh ↗</a></p>
+<p><span class="stage">演出结束</span></p>
+<p class="directions">主角奔上升降机，扶苏操作，木台缓缓下沉，配合铁链摩擦的闷响，和冷风掠过耳边的呜声。</p>
+<p class="linkline"><a href="https://papergames.feishu.cn/sync/OsUhdzDqWsSfPdbcd5ycHMV2nEh" target="_blank" rel="noopener noreferrer">https://papergames.feishu.cn/sync/OsUhdzDqWsSfPdbcd5ycHMV2nEh ↗</a></p>
+<p class="directions">木台触地，重重一顿。</p>
+<h3 id="act-4-scene-7">【瓮城门前】</h3>
+<p class="directions">瓮城正门前的空地上，劳工或坐或躺，伤痛和疲惫写在脸上。</p>
+<p class="directions">一队咸阳卫戍军在瓮城门口列阵，特制的盔甲散发着凛然寒意。</p>
+<p class="directions">看到扶苏出现，卫戍军走上前来，在二人身前形成半包围态势。</p>
+<p class="dialogue">扶苏（看向主角）：欲解此局，须究其源。</p>
+<p class="directions">带头的卫戍军朝扶苏走来，微微颔首，伸出胳膊将扶苏引向瓮城方向。卫戍军改变队形，从左右两侧夹住主角和扶苏。</p>
+<p class="directions">扶苏面不改色，向前走去。一旁的劳工见状，起身张望，其中几人缓缓向前移动，目光中有担心的神色。</p>
+<p class="directions">不想卫戍军直接将上前的劳工推倒踢翻。</p>
+<p class="dialogue">卫戍军：退后！</p>
+<p class="directions">扶苏看向倒地劳工，慨叹一句。</p>
+<p class="dialogue">扶苏：秦法如此待民，岂可长存？</p>
+<p class="directions">随后扶苏眼神逐渐转为坚定。</p>
+<p class="dialogue">扶苏：积弊难返，便由我，开此一局。</p>
+<p class="directions">主角看着扶苏，眼神中多了理解。</p>
+<p class="dialogue">主角：你既已下了决心，这一路，我陪你走。</p>
+<p class="directions">扶苏点头，与主角并肩前进。</p>
+<p class="directions">卫戍军让开通道，城内之景推于眼前。</p>
+<p class="missing">暂时无法在飞书文档外展示此内容</p>
+</section>
+<section id="act-5"><div class="act-label">ACT 05</div><h2>第五幕</h2>
+<p class="notice">--以下内容尚未完全确定，请谨慎参考。--</p>
+<h3 id="act-5-scene-1">【瓮城】</h3>
+<p class="npc">NPC：扶苏、李斯、咸阳卫戍军、长城秦军、劳工</p>
+<p><span class="stage">演出开始</span></p>
+<p class="directions">主角和扶苏推开瓮城正门，随镜头走进，只见长城军团列阵以待。</p>
+<p class="directions">李斯立于军阵中央，神色冷峻。</p>
+<p class="directions">扶苏和主角身后的门被卫戍军重重关上，空间中回荡着一声闷响。</p>
+<p class="dialogue">李斯：陛下有诏。扶苏——听宣。</p>
+<p class="directions">扶苏和主角身后的门被卫戍军重重关上，瓮城之内，声音撞壁而回，无处可逃。</p>
+<p class="directions">扶苏抬首。主角侧身，挡在扶苏之前。</p>
+<p class="directions">李斯展卷——</p>
+<p class="dialogue">李斯：朕巡天下，令扶苏屯兵戍边。十有馀年，未能寸进；士卒多耗而无功，负朕所托。</p>
+<p class="dialogue">李斯：反以直谏为辞，行怨怼之实。不孝如斯……</p>
+<p class="directions">卷合。</p>
+<p class="dialogue">李斯：有子——不如无子。</p>
+<p class="directions">军阵骚动，如蚁穴初破。扶苏听着那些细碎的声音，忽然笑了。</p>
+<p class="dialogue">扶苏：&quot;有子不如无子&quot;……唯有这句像他的口吻。</p>
+<p class="directions">低声，如说与自己——</p>
+<p class="dialogue">扶苏：国无人莫我知兮，又何怀乎故都。</p>
+<p class="directions">再抬头，声彻瓮城——</p>
+<p class="dialogue">扶苏：筑长城以御胡，筑驰道以通天下，筑阿房以待万世——</p>
+<p class="dialogue">扶苏：这万里江山，本就是父皇一人的囚牢，又怎容得下旁人？</p>
+<p class="directions">李斯嘴角冷笑。</p>
+<p class="dialogue">李斯：公子既疑诏书，莫非要抗君父之命吗？</p>
+<p class="directions">主角踏前一步，遗诏高举——</p>
+<p class="dialogue">主角：公子扶苏，为人宽仁，宜承大统。令与丧咸阳，继皇帝位。</p>
+<p class="directions">军阵哗然。有人在看李斯，有人在看扶苏，更多人在看自己的刀——刀该向谁，他们还没想好。</p>
+<p class="directions">李斯面不更色，扬手中伪诏——</p>
+<p class="dialogue">李斯：汝视秦律为儿戏乎？盖印诏书在此！</p>
+<p class="directions">印信高举，如举屠刀——</p>
+<p class="dialogue">李斯：罪臣扶苏，矫诏抗律，形同谋逆。</p>
+<p class="dialogue">李斯（声沉如墓）：众军士——奉令诛贼！</p>
+<p><span class="stage">演出结束</span></p>
+<h3 class="battle">定制战斗阶段一：长城秦军被迫进攻战</h3>
+<p class="battle"><strong>战斗开始</strong></p>
+<p class="battle">长城士兵看向手持金印的李斯，皱起眉头向主角发起攻击。</p>
+<p class="battle">主角使用剑柄将士兵击倒。</p>
+<p class="battle">以下为战中对话（李斯仅以声音出场）</p>
+<p class="dialogue">李斯（扫视一周）：大秦律曰：临阵退缩者，斩；纵敌者，连坐。</p>
+<p class="battle">戍卫军拔剑督战，剑指原地犹豫的士兵。</p>
+<p class="battle">士兵无路可退，大喊着向主角冲去。</p>
+<p class="battle">主角痛心疾首，只能一个个将其击倒，愤怒逐渐累积，在解决了一波波秦军后，对李斯怒目而视。</p>
+<h4>过渡阶段：</h4>
+<p class="dialogue">扶苏：此皆大秦戍边之士，丞相竟忍驱之赴死！</p>
+<p class="dialogue">李斯（冷冷地）：治军不严，不堪一用。</p>
+<p class="dialogue">李斯：卫戍军听令——诛杀逆贼，肃正秦法。</p>
+<h3 class="battle">定制战斗阶段二：咸阳卫戍军精锐合围战</h3>
+<p class="battle"><strong>战斗开始</strong></p>
+<p class="battle">咸阳卫戍军直接发动进攻，甲胄声如潮涌来，刀势凌厉，全无试探。来不及撤下的长城守军也死在戍卫军剑下。</p>
+<p class="battle">主角与之战斗。李斯血条出现，但为不可被攻击状态。</p>
+<p class="battle">以下为战中对话（扶苏和李斯仅以声音出场）</p>
+<p class="dialogue">扶苏：丞相句句不离秦法，却不知徭役日重，百姓已不堪其苦。此地劳工，亡于役者十之有三。</p>
+<p class="dialogue">李斯：成大事者，不惜小民。</p>
+<p class="dialogue">李斯：并六国，一天下，威服四海——哪一桩不是秦法之功？</p>
+<p class="dialogue">李斯：三人死全七人生， 万世基业不以一人之命计。</p>
+<p class="dialogue">扶苏：这天下，不过一人一世之天下，何来万世可言！</p>
+<p class="battle">放大主角战斗音效，辩论稍停后进入下一阶段。</p>
+<h3 class="battle">定制战斗阶段三：李斯刺杀试探</h3>
+<p class="battle"><strong>战斗开始</strong></p>
+<p class="battle">场面进一步升级，第二波咸阳卫戍军数量倍增，李斯血条标记为“可攻击”状态。</p>
+<p class="battle">以下为战中对话（扶苏和李斯仅以声音出场）</p>
+<p class="dialogue">李斯（厉声）：大秦以法立国，公子不思维护，反加诋毁，是要动摇国本！</p>
+<p class="dialogue">扶苏：独国本必筑于尸骨之上乎？</p>
+<p class="dialogue">扶苏：筑城者衣不蔽体，守城者精疲力竭。</p>
+<p class="dialogue">扶苏：为了一人的万世之梦，要牺牲万民之命吗？</p>
+<p class="battle">放大主角战斗音效，击败咸阳卫戍军。</p>
+<p class="dialogue">扶苏：泱泱大秦律法，与戮民之刑何异？！</p>
+<p class="battle">主角直接冲向李斯。</p>
+<hr style="border:0;border-top:1px solid var(--line);margin:26px 0">
+<p><span class="stage">演出开始</span></p>
+<p class="directions">主角剑尖直指李斯咽喉。</p>
+<p class="dialogue">扶苏（拉住主角胳膊）：够了。</p>
+<p class="directions">主角诧异回望。</p>
+<p class="directions">扶苏示意主角放下剑，转头环视瓮城内的士兵，最后目光落在瑟缩于墙角的劳工。</p>
+<p class="dialogue">扶苏：丞相壮年入秦，成就帝业，又广聚人才，制法以定。</p>
+<p class="dialogue">扶苏：但可曾想过——法为何而立？</p>
+<p class="directions">李斯默然不语，眼神微动。</p>
+<p class="dialogue">扶苏：法为民而立。失民心者，亡之未远！</p>
+<p class="directions">扶苏不再看李斯，上前一步，朝长城军团的士兵说话。</p>
+<p class="dialogue">扶苏：扶苏戍边十年，其过大矣！</p>
+<p class="dialogue">扶苏：身为监军，我眼见徭役繁重，百姓困苦，却只知上书进谏，不敢多行一步。说到底——是扶苏懦弱。</p>
+<p class="directions">扶苏转头看向主角，目光中透出一种前所未有的清明。</p>
+<p class="dialogue">扶苏：直到今日，有人不远千里，不惜一死，只为救一个他心中当救之人。</p>
+<p class="dialogue">扶苏：是他教会我——事之成败，非人所能预料，然心之所向，却不可不为。</p>
+<p class="directions">主角怔住，意识到这是自己的言行。</p>
+<p class="directions">扶苏转头，重新看向士兵，眼神里多了坚毅，声音也提高起来。</p>
+<p class="dialogue">扶苏：大秦子弟——十年戍边，可知为何而守？</p>
+<p class="directions">长城士兵互相张望，脸上是不解的神色。</p>
+<p class="dialogue">扶苏：是为身后父老妻儿，不再受胡马践踏。</p>
+<p class="dialogue">扶苏：诸位执戈而立，身后便是万户生民。护民者，方为长城之兵。</p>
+<p class="directions">（说到“身后便是万户生民”时，扶苏转身面向南方，展开双臂）</p>
+<p class="directions">短暂沉默。一个老兵将武器杵在地上，单膝跪下。而后是他身旁的人，再而后是更多的人——甲胄碰撞的声响此起彼伏，像潮水一样从前排蔓延到后排。没有人说话，只有一排排士兵单膝跪地的闷响。</p>
+<p class="directions">李斯脸色微变。</p>
+<p class="directions">扶苏回转身来，望着眼前的长城军团，眼中微光一闪，随即深吸一口气。</p>
+<p class="dialogue">扶苏：人重于法。扶苏今日，愿以死践之。</p>
+<p class="directions">全场震惊，主角愕然。</p>
+<p class="dialogue">扶苏：今日，我便传此最后一令。</p>
+<p class="dialogue">扶苏：遣返劳工，准其归乡！</p>
+<p class="directions">城下劳工愕然，议论声起。</p>
+<p class="directions">守门秦将做出开门手势，城门缓缓开启。</p>
+<p class="directions">几名劳工犹豫地起身前往，试探几步后拔腿狂奔，其他劳工见势也蜂拥而出。</p>
+<p class="directions">扶苏缓缓拔剑。</p>
+<p class="dialogue">扶苏：法，不容情……</p>
+<p class="dialogue">扶苏：可若法中无人，这万里长城，也不过一堵待倾之墙。</p>
+<p class="dialogue">扶苏（转向主角）：今日扶苏以身证道，愿后来者……行道安民。</p>
+<p class="directions">扶苏毅然举剑自刎。</p>
+<p class="directions">镜头切到城门处，无数劳工向外奔逃。</p>
+<p><span class="stage">演出结束</span></p>
+<p class="directions"><strong>【黑屏】</strong></p>
+<p class="directions">特写：一只手取走扶苏腰间的玉佩。</p>
+<p class="directions"><strong>【黑屏】</strong></p>
+</section>
+<footer>沙丘之变 · 主线台本｜按原文整理，保留重复段落、未定稿提示与外部链接。</footer></main></div><script>
+document.getElementById('print').addEventListener('click',()=>window.print());
+document.getElementById('copy').addEventListener('click',async()=>{const text='沙丘之变-主线台本\n\n'+document.getElementById('article').innerText;const status=document.getElementById('status');try{await navigator.clipboard.writeText(text);status.textContent='全文已复制。'}catch{const field=document.createElement('textarea');field.value=text;field.style.position='fixed';field.style.left='-9999px';document.body.appendChild(field);field.select();const ok=document.execCommand('copy');field.remove();status.textContent=ok?'全文已复制。':'请选中正文，按 Ctrl+C 或使用手机的复制功能。';}});
+</script></body></html>
