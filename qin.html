@@ -221,3 +221,4 @@ document.getElementById('print').addEventListener('click',()=>window.print());
 document.getElementById('copy').addEventListener('click',async()=>{const text='故事探索-秦\n\n'+document.getElementById('article').innerText;const status=document.getElementById('status');try{await navigator.clipboard.writeText(text);status.textContent='全文已复制。'}catch{const field=document.createElement('textarea');field.value=text;field.style.position='fixed';field.style.left='-9999px';document.body.appendChild(field);field.select();const ok=document.execCommand('copy');field.remove();status.textContent=ok?'全文已复制。':'请选中正文，按 Ctrl+C 或使用手机的复制功能。';}});
 </script></body></html>
 
+
